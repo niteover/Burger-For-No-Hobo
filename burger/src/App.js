@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
+import Slider from "./Components/Slider";
 
 class App extends React.Component {
 
   render (){
     return (
-      <div>Ilya ne pidor! Spasibo!</div>
+      <div>
+        <p>Ilya ne pidor! Spasibo!</p>
+        <Slider />
+      </div>
     );
     
   }
